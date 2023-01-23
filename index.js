@@ -58,7 +58,7 @@ const questions = [{
 ]
 
 
-//---- function to write answers to a README file ----//
+//---- function to add answers to a README file ----//
 
 function writeToFile(fileName, data) {
 

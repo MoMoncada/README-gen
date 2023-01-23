@@ -1,5 +1,6 @@
 const licenseArray = ["APACHE 2.O", "BSD 3-clause license", "Mozilla Public License 2.0","Microsoft Public License", "MIT", "Open Software License 3.0", "None"]
 
+//---- function to render the license badge ----//
 
 function renderLicenseBadge(license) {
   if (license === licenseArray[0]){
@@ -21,6 +22,7 @@ function renderLicenseBadge(license) {
 
 
 
+//---- function to render the link for the license ----//
 
 function renderLicenseLink(license) {
   if (license === licenseArray[0]) {
@@ -48,6 +50,7 @@ function renderLicenseLink(license) {
 
 
 
+//---- function to return license sections ----//
 
 function renderLicenseSection(license){
   if (license === licenseArray[0]) {
@@ -107,10 +110,11 @@ ${data.installation}
 
 
 ## Usage
-In order to use this app, you need to ${data.usage}
+${data.usage}
 
 
 ## Contributing Guidelines
+[Contributor Covenant](https://www.contributor-covenant.org/)  
 ${data.guidelines}
 
 
