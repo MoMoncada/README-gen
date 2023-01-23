@@ -22,9 +22,10 @@ Clone the repository.
 ### GitHub: https://github.com/MoMoncada/README-gen
 
 
+
 ---------------------
 
-### Application Screenshots
+## Application Screenshots
 
 
 
