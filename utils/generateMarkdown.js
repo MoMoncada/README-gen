@@ -19,9 +19,8 @@ function renderLicenseBadge(license) {
   }
 }
 
-// // TODO: Create a function that returns the license link
-// // If there is no license, return an empty string
-// function renderLicenseLink(license) {}
+
+
 
 function renderLicenseLink(license) {
   if (license === licenseArray[0]) {
@@ -41,18 +40,38 @@ function renderLicenseLink(license) {
   
   } else if (license === licenseArray[5]) {
     return `[${licenseArray[5]}](https://opensource.org/licenses/OSL-3.0)`
+
   } else {
     return ""
   } 
 }
 
-// // TODO: Create a function that returns the license section of README
-// // If there is no license, return an empty string
-// function renderLicenseSection(license) {}
 
 
 
-//${renderLicenseSection(data.license)}
+function renderLicenseSection(license){
+  if (license === licenseArray[0]) {
+    return `To find out more about ${licenseArray[0]}, click here:`
+
+  } else if (license === licenseArray[1]) {
+    return `To find out more about ${licenseArray[1]}, click here:`
+
+  } else if (license === licenseArray[2]) {
+    return `To find out more about ${licenseArray[2]}, click here:`
+
+  } else if (license === licenseArray[3]) {
+    return `To find out more about ${licenseArray[3]}, click here:`
+
+  } else if (license === licenseArray[4]) {
+    return `To find out more about ${licenseArray[4]}, click here:`
+
+  } else if (license === licenseArray[5]) {
+    return `To find out more about ${licenseArray[5]}, click here:`
+
+  } else {
+    return ""
+  }
+}
 
 
 
@@ -96,6 +115,7 @@ ${data.guidelines}
 
 
 ## License
+${renderLicenseSection(data.license)}
 ${renderLicenseLink(data.license)}
 
 
