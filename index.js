@@ -17,7 +17,7 @@ const questions = [{
         name: "description"
     },{
         type: "input",
-        message: "What do you need to do to install the application?",
+        message: "What do you need to do you install the application?",
         name: "installation"
     }, {
         type: "input",
