@@ -27,6 +27,15 @@ Clone the repository.
 
 ## Application Screenshots
 
+### Q&A's via CLI
+
+![CLI](./assets/images/CLI-questions.png)
+
+
+### Mock-README.md file
+
+![mock-README.md](./assets/images/mock-md.png)
+
 
 
 
