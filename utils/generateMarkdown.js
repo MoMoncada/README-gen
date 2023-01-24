@@ -113,6 +113,10 @@ ${data.installation}
 ${data.usage}
 
 
+## Tests
+${data.test}
+
+
 ## Contributing Guidelines
 [Contributor Covenant](https://www.contributor-covenant.org/)  
 ${data.guidelines}
@@ -122,10 +126,6 @@ ${data.guidelines}
 ${renderLicenseSection(data.license)}
 ${renderLicenseLink(data.license)}
 
-
-
-## Tests
-${data.test}
 
 
 ## Questions
