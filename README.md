@@ -7,25 +7,27 @@ The following application provides the user with a series of questions to genera
 
 ## Instructions
 
-(Video with instructions)
+[Click here to watch this application in action!](https://drive.google.com/file/d/1IlhpgfXNLZbplajFOCztbHE5UEWj5Ijv/view)
 
+---------------------
 
 
 ## Installation
 
 Clone the repository.
 
---------------------
+------
 
 ## Application Documentation
 
 ### GitHub: https://github.com/MoMoncada/README-gen
-
-
-
 ---------------------
 
+
+
+
 ## Application Screenshots
+---------------------
 
 ### Q&A's via CLI
 
